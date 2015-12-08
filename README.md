@@ -13,7 +13,7 @@ edp bos dir bos://<bucket>/dir
 **api**
 
 ```javascript
-var bos = require('edpx-bcs');
+var bos = require('edpx-bos');
 
 var ak = '';
 var sk = '';
