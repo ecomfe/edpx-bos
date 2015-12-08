@@ -1,0 +1,38 @@
+{
+  "name": "edpx-bos",
+  "version": "0.0.1",
+  "description": "edp bos command package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "baidubce-sdk": "0.0.17",
+    "edp-config": "^1.0.2",
+    "edp-core": "~1.0.12",
+    "mime": "^1.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/edpx-bos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecomfe/edpx-bos/issues"
+  },
+  "contributors": [
+    {
+      "name": "easonyq",
+      "email": "wangyisheng@outlook.com"
+    },
+    {
+      "name": "leeight",
+      "email": "liyubei@baidu.com"
+    },
+    {
+      "name": "sekiyika",
+      "email": "pengxing@baidu.com"
+    }
+  ],
+  "author": "easonyq",
+  "license": "ISC"
+}
