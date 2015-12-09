@@ -82,7 +82,8 @@ exports.start = function (args, opts) {
     var endpoint = config.get('bos.endpoint');
     if (!ak || !sk || !endpoint) {
         edp.log.warn('Please set `bos.ak`, `bos.sk` and `bos.endpoint` first.');
-        edp.log.warn('You can apply them from http://bce.baidu.com/index.html');
+        edp.log.warn('Use `edp config bos.ak xxxxxxx`');
+        edp.log.warn('See more infomation at http://bce.baidu.com/index.html');
         process.exit(1);
     }
 
