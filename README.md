@@ -10,6 +10,16 @@ edp bos a.js bos://<bucket>/a.js
 edp bos dir bos://<bucket>/dir
 ```
 
+输出形如:
+
+```bash
+edp INFO endpoint url: http://bos.nj.bpc.baidu.com/<bucket>/a.js
+edp INFO cdn url:      http://boscdn.bpc.baidu.com/<bucket>/a.js
+```
+
+`endpoint url`根据配置的`endpoint`直接拼接而成，重复上传后会文件内容会实时更新
+`cdn url`根据OP的映射关系生成，经过cdn分配，重复上传后*不一定*会更新，也*不确定什么时候会更新*
+
 **api**
 
 ```javascript
